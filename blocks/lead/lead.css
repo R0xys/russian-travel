@@ -1,0 +1,11 @@
+.lead {
+  justify-content: center;
+  align-items: center;
+  margin: 56px auto 92px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    padding: 0;
+  }
+}

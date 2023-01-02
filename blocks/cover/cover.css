@@ -1,0 +1,24 @@
+.cover {
+  margin: 0 auto;
+  width: 100%;
+  height: 0px;
+  background: url(../../../images/cover-trains.jpg)center / cover no-repeat;
+  padding-bottom: 62.5%;
+  position: relative;
+}
+
+.cover::after {
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity 0.5s;
+}
+
+.cover:hover::after {
+  opacity: 0.8;
+}
