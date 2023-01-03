@@ -4,7 +4,7 @@
   bottom: 0;
   right: 0;
   position: absolute;
-  transition: opacity 0.5s ;
+  transition: opacity 0.5s;
   margin: auto;
   z-index: 3;
 }
