@@ -20,6 +20,9 @@
   .place {
     grid-gap: 48px 28px;
     grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
+  }
+
+  .place:not(:first-child) {
     margin-top: 73px;
   }
 }
@@ -28,7 +31,6 @@
   .place {
     grid-template-columns: minmax(100px, 100%);
     grid-gap: 32px 0;
-    margin-top: 50px;
   }
 
   .place:not(:first-child) {
