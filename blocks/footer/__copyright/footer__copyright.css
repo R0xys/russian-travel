@@ -3,4 +3,17 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: opacity 0.5s;
+}
+
+.footer__copyright:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__copyright {
+    line-height: 14px;
+  }
 }
